@@ -1,0 +1,23 @@
+.aa-menu-item {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    border: .1rem dashed transparent;
+}
+
+.aa-menu-item:hover {
+    text-decoration: none;
+    border: .1rem dashed grey;
+}
+
+.aa-menu-item.active {
+    background: grey;
+    color: white;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.aa-menu-items {
+    margin-top: 2rem;
+}
