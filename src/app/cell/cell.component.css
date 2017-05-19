@@ -1,0 +1,21 @@
+.aa-cell-wrapper {
+    border: .1rem solid #A7A37E;
+    border-radius: .3rem;
+    padding: 1rem;
+    min-height: 14rem;    
+    cursor: pointer;
+}
+
+.aa-cell-wrapper:hover,
+.aa-cell-wrapper.active {
+    background-color: rgba(189, 242, 113, 0.5);
+    border-color: #BDF271;
+}
+
+.aa-cell__text {
+    font-size: 1.6rem;
+}
+
+.col-md-2 {
+    padding: 5px;
+}

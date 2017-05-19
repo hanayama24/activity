@@ -1,23 +1,29 @@
 .aa-menu-item {
     font-size: 2rem;
     padding: 1rem 2rem;
-    border-radius: 1rem;
+    margin-right: 1rem;
+    border-radius: .3rem;
     box-sizing: border-box;
     border: .1rem dashed transparent;
 }
 
 .aa-menu-item:hover {
     text-decoration: none;
-    border: .1rem dashed grey;
+    border: .1rem dashed #A7A37E;
 }
 
 .aa-menu-item.active {
-    background: grey;
+    background: #1695A3;
     color: white;
     text-decoration: none;
-    border-radius: 1rem;
+    border-radius: .3rem;
 }
 
 .aa-menu-items {
     margin-top: 2rem;
+}
+
+.col-md-12 {
+    padding-left: 5px;
+    padding-right: 5px;
 }

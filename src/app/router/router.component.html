@@ -1,7 +1,19 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <nav class="aa-menu-items">
+                <a class="aa-menu-item" routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+                <a class="aa-menu-item" routerLink="/statistic" routerLinkActive="active">Statistic</a>
+                <a class="aa-menu-item" routerLink="/goals" routerLinkActive="active">Goals</a>
+            </nav>
+        </div>
+    </div>
+</div>
 
-  <nav class="aa-menu-items">
-    <a class="aa-menu-item" routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-    <a class="aa-menu-item" routerLink="/statistic" routerLinkActive="active">Statistic</a>
-    <a class="aa-menu-item" routerLink="/goals" routerLinkActive="active">Goals</a>
-  </nav>
-  <router-outlet></router-outlet>
+
+  <div class="container">
+      <div class="row">
+          <router-outlet></router-outlet>
+      </div>
+  </div>
+  

@@ -11,6 +11,7 @@ import { StatisticComponent } from './statistic/statistic.component';
 import { GoalsComponent } from './goals/goals.component';
 import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component';
 import { RouterComponent } from './router/router.component';
+import { CellComponent } from './cell/cell.component';
 
 const appRoutes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
@@ -31,7 +32,8 @@ const appRoutes: Routes = [
     StatisticComponent,
     GoalsComponent,
     PageNotFoundComponent,
-    RouterComponent
+    RouterComponent,
+    CellComponent
   ],
   imports: [
     BrowserModule,
